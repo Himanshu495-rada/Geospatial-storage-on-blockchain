@@ -13,6 +13,17 @@
   }
 }
 
+.status {
+  position: absolute;
+  top: 20px;
+}
+
+.wallet_txt {
+  color: #618afb; 
+  position: absolute;
+  top: 80px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +33,19 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.btn {
+  background-color: #f0600d;
+  height: 50px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.btn_text {
+  color: black;
+  font-size: large;
 }
 
 .App-link {
